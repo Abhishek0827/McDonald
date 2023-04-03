@@ -1,0 +1,763 @@
+@media screen and (max-width: 1344px) {
+  header {
+    width: 100%;
+  }
+  .maincell {
+    width: 100%;
+  }
+  main {
+    width: 98.5%;
+  }
+  #upper {
+    height: 89%;
+  }
+  .slide {
+    width:59.15vw;
+  }
+  .left-container {
+    width: 83.8%;
+  }
+  /* .left-container {
+    width: 400px;
+  } */
+  .left h1 {
+    font-size: 40px;
+    width: 400px;
+    width: 100%;
+  }
+  .bookcontainer img{
+    width:19vw;
+  }
+}
+@media screen and (max-width: 1233px) {
+  .Burgers{
+    margin:40px 10px ;
+  }
+  .Sides{
+    margin:40px 10px ;
+  }
+  .Desserts{
+    margin:40px 10px ;
+  }
+  .Beverages{
+    margin:40px 10px ;
+  }
+  .h1{
+    width: 60%;
+    margin-left: -10px;
+    padding-left: 10px;
+  }
+  .latest,.laestnews{
+    width: 240px;
+  }
+}
+@media screen and (max-width: 999px) {
+  nav {
+    justify-content: space-around;
+    /* background-color: red; */
+  }
+  #upper {
+    height: 90%;
+  }
+  .slide {
+    height: 40em;
+  }
+  .left-container {
+    width: 300px;
+  }
+  .left h1 {
+    font-size: 30px;
+    width: 300px;
+  }
+  .h1{
+    height:50px;
+    font-size:12px;
+    padding-left: 50px;
+  }
+  .inforight{
+    background-size: 400px;
+    background-position: center;
+  }
+  .Contains{
+    font-size:12px;
+    grid-column-gap:8px;
+    grid-row-gap: 10px;
+  }
+  .happyright img{
+    width: 20vw;
+    height: 25vh;
+  }
+  .left-text img{
+    width:150px; 
+  }
+  .left-text h1{
+    font-size:40px;
+  }
+  .left-text p{
+     margin-top: 20px;
+    font-size: large;
+  }
+  .monthname{
+    font-size: 10px;
+  }
+  .bookdesc{
+    font-size: 10px;
+  }
+  .deliverylogo img {
+    height: 50px;
+  }
+  .otherapps img{
+    width: 30px;
+    height: 30px;
+  }
+  .deliveryright{
+    background-size:500px ;
+  }
+  .newstwo{
+    flex-direction: column;
+  }
+  .newstwowrap{
+    width: 100%;
+  }
+  .latest{
+    width: 280px;
+  }
+  .laestnews{
+    width: 100%;
+    height: auto;
+  }
+  .subscribe{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width:860px) {
+  #inputtext{
+    width: 55%;
+  }
+  .subscribe{
+    width: 35%;
+  }
+}
+@media screen and (max-width: 799px) {
+  header {
+    position: fixed;
+  }
+  
+  
+ 
+  /* .h1{
+    height:50px;
+    font-size:10px;
+    padding-left:20px;
+  } */
+  #middle2{
+    flex-direction: column;
+  }
+
+  .happyleft{
+    width: 100%;
+  }
+  .happyright{
+    width: 100%;
+  }
+  .happyright img{
+    width:150px;
+    height: 150px;
+  }
+    #middle3{
+    flex-direction: column;
+  }
+  .readleft{
+    width: 100%;
+  }
+  .left-text{
+    width: 95%;
+  }
+.readright{
+  width: 100%;
+}
+.bookcontainer img{
+   width:40vw;
+}
+.monthname{
+  font-size:100%;
+}
+.bookdesc{
+  font-size: 10px;
+}
+#middle4{
+  flex-direction: column;
+  background-size:cover;
+  min-height:900px ;
+}
+.restaurantleft{
+  background-color: white;
+  width: 95%;
+  margin: auto;
+  padding-top: 0px;
+  margin-top:100px;
+  min-height: 400px;
+  background-size: 140px;
+}
+.selectcity{
+ width: 90%;
+}
+.cityoption{
+  width:100% ;
+}
+.c1{
+  width:auto;
+  justify-content: space-between;
+  padding:20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.restaurantright{
+  padding: 20px 0px;
+  width: 95%;
+  margin: auto;
+  
+}
+.orderbtn {
+  width: 150px;
+  height:30px;
+}
+.newstextone{
+  font-size: 13px;
+}
+.newstextone a{
+  text-align: center;
+  width: 100%;
+  margin-left:0px ;
+}
+.foottext{
+  width: 95%;
+}
+}
+
+@media screen and (max-width: 760px) {
+  header{
+    background-color: #fcb900;
+    box-shadow: 0px 1px 9px .1px black;
+  }
+  .icon {
+    margin: auto;
+    width: 90%;
+    justify-content: space-between;
+  }
+  .pop {
+    display: flex;
+  }
+  .options {
+    display: none;
+    width: 100%;
+    align-items: end;
+  }
+  ul {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  .options ul li {
+    margin-top: 10px;
+    /* border-bottom: 0.1px solid rgb(161, 151, 151); */
+  }
+  main {
+    width: 100%;
+  }
+  #upper {
+    flex-direction: column;
+    height: 850px;
+    background-color: #fcb900;
+  }
+  .left {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: end;
+  }
+  .left-container {
+    width: 600px;
+  }
+  .left h1 {
+    font-size: 50px;
+    width: 600px;
+  }
+  .right {
+    margin: auto;
+    width: 630px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    margin: auto;
+  }
+  .slide {
+    height: 500px;
+    width: 630px;
+  }
+  .menu{
+    margin-left:0px;
+    margin: 0px 10px;
+    margin: auto;
+    justify-content: space-evenly;
+  }
+  .Burgers{
+    margin:20px 10px;
+    flex-direction: column;
+  }
+  .Sides{
+    margin:20px 10px;
+    flex-direction: column;
+  }
+  .Desserts{
+    margin:20px 10px;
+    flex-direction: column;
+  }
+  .Beverages{
+    margin:20px 10px;
+    flex-direction: column;
+  }
+  .infoleft{
+    width: 100%;
+    order: 1;
+  }
+  .inforight{
+    margin: auto;
+
+    width: 70vw;
+    height:40vh;
+    order: 0;
+  }
+
+  .h1{
+    width: 40%;
+    padding-left: 10px;
+    text-align: center;
+  }
+  .contents{
+    margin: auto;width: 70%;
+  }
+  .Contains{
+    
+    grid-column-gap:6px;
+    grid-row-gap: 3px;
+  }
+  #middle5 {
+    align-items: center;
+    justify-content: center;
+  }
+  .deliveryleft{
+    width: 90%;
+    height: 90%;
+  }
+  .deliveryright{
+    display: none;
+  }
+  .otherapps{
+    margin-bottom: 10px;
+  }
+  .newsone{
+    flex-direction: column;
+    height:auto;
+  }
+  .newsimageone{
+    width: 100%;
+  }
+  .newstextone{
+    width: 100%;
+    right: 0px;
+    height: auto;
+    padding: 10px 0px;
+  }
+  .newstextone h2{
+    font-size:30px;
+    padding: 10px 15px;
+  }
+  .newstextone a{
+    text-align: start;
+    margin-left:15px ;
+  }
+  .latest{
+    width: 200px;
+  }
+  .laestnews{
+    width: 100%;
+    height: auto;
+  }
+  .footleft{
+    width: 100%;
+  }
+  .footright{
+    display: none;
+  }
+  .foottext{
+    background-color:transparent ;
+  }
+  .footmain{
+    width: 100%;
+    background-color: rgb(231, 219, 219);
+    background-color: #fcb900;
+    padding-top: 10px;
+  }
+  #inputtext{
+    width: 95%;
+    border-radius: 0px;
+    border-top-left-radius:50px ;
+    border-top-right-radius:50px ;
+    /* padding-left: 20px; */
+    text-align: center;
+  }
+  .subscribe{
+    margin-top: 5px;
+    border-radius: 0px;
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius:50px ;
+    height: 30px;
+  }
+  .footsearch{
+    padding-top: 10px;
+    flex-direction: column;
+    margin: auto;
+    align-items: start;
+    width: 95%;
+  }
+}
+@media screen and (max-width: 620px) {
+  #upper {
+    height: 750px;
+  }
+  .left-container {
+    width: 95%;
+  }
+  .left h1 {
+    font-size: 40px;
+    width: 100%;
+  }
+  .right {
+    width: 530px;
+    height: 100%;
+  }
+  .slide {
+    height: 430px;
+    width: 530px;
+  }
+  .menu{
+
+    justify-content: space-around;
+  }
+  .menu h1{
+    font-size: 20px;
+  }
+  .contents{
+    margin: auto;width: 90%;
+  }
+  .Contains{
+    font-size:15px;
+  }
+
+  .newsimageone{
+    height: auto;
+  }
+  .newsimageone img{
+    width:300px;
+    margin: 20px 0px;
+  }
+  .newstwowrap{
+    flex-wrap: wrap;
+  }
+  .latest{
+    width: 40%;
+    background-size:270px ;
+  }
+}
+@media screen and (max-width:614px){
+  /* .menu{
+    font-size:2vh;
+    align-items: center;
+    justify-content: center;
+  } */
+  #middle6{
+    display: flex;
+    justify-content: center;
+  }
+
+.news{
+  width: 95%;
+  margin: 50px 0px;
+}
+  .newsimageone img{
+    width: 100%;
+    margin: 0px;
+  }
+  .newstwowrap{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+  }
+  .latest{
+    width: 60%;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .left-container {
+    width: 95%;
+  }
+  .left h1 {
+    font-size: 40px;
+    width: 100%;
+  }
+  .right {
+    width: 95vw;
+    height: 100%;
+  }
+  .slide {
+    height: 430px;
+    width: 95vw;
+  }
+  .menu{
+    justify-content: center;
+  }
+  .menu h1{
+   font-size: 17px;
+  }
+  .h1{
+    padding-left:10%;
+    padding-right:10%;
+    font-size:10px;
+  }
+  .Contains{
+    font-size:80%;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+  }
+  .inforight{
+    background-size:100%;
+  }
+  .happyright img{
+    width: 55%;
+    height:55%;
+  }
+  .happyright div{
+    font-size: 35px;
+  }
+  .rowone{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  .rowone div,.rowtwo div{
+    margin-top: 20px;
+  }
+  .rowtwo{
+    flex-direction: column;
+    align-items: center;
+  }
+.slider{
+  width: 95%;
+}
+.arrow {
+  margin-top: 20px;
+}
+#arrowleft{
+  width: 30px;
+  height: 30px;
+}
+#arrowright{
+  width: 50px;
+  height: 50px;
+}
+  .monthname{
+    font-size:80%;
+  }
+  .bookdesc{
+    font-size:70%;
+    line-height:2;
+  }
+  .agrainfo{
+    flex-wrap: wrap;
+  }
+  .agraone,.agratwo{
+    margin: auto;
+    margin-top:10px ;
+  }
+}
+@media screen and (max-width: 440px) {
+  #upper {
+    height: 670px;
+  }
+  .left {
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    justify-content: end;
+  }
+  .left h1 {
+    font-size: 25px;
+  }
+  .right {
+    justify-content: center;
+    align-items: center;
+  }
+  .slide {
+    height: 400px;
+  }
+  .menu{
+
+    display: grid;
+    grid-template-columns: auto auto;
+ 
+    text-align: center;
+  }
+  
+  .h1{
+    padding-left: 10px;
+    font-size: 8px;
+  }
+  .para{
+    font-size:small;
+  }
+  .contents{
+    margin: 2px;
+    padding: 10px 0px;
+    height:auto;
+    width: 200px;
+    width: 95%;
+  }
+  .Contains{
+    font-size:15px;
+    grid-template-columns:auto auto
+  }
+  .left-text h1{
+    font-size:30px;
+  }
+  .left-text {
+    border: 1px solid;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #middle5{
+   padding: 10px 0px;
+  }
+  .deliveryleftmain {
+    margin-top: 10px;
+
+  }
+  .deliveryleft{
+    width: 95%;
+    
+  }
+  .deliverylogo img {
+    height:50px;
+  }
+  .deliverytext {
+    grid-row-gap: 10px;
+  }
+  .otherapps img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+  .latest{
+    width: 95%;
+  }
+  .footsearch{
+    align-items: center;
+  }
+  #inputtext{
+    width: 96%;
+  }
+  .subscribe{
+    width: 100%;
+    height: 45px;
+    margin-left: 0px;
+    align-self: center;
+    font-size: large;
+  }
+}
+@media screen and (max-width: 370px) {
+  .left {
+    height: 100%;
+  }
+  #upper {
+    height: 550px;
+  }
+  .left h1 {
+    font-size: 27px;
+  }
+  #btn1 {
+    width: 30px;
+    height: 30px;
+  }
+  #btn2 {
+    width: 50px;
+    height: 50px;
+  }
+  .slide {
+    height: 300px;
+  }
+  /* .icon img {
+    width: 45px;
+  } */
+  /* .pop {
+    width: 45px;
+    height: 45px;
+    
+  }
+  .pop div{
+    width: 25px;
+  } */
+  .happyright div{
+    font-size: 25px;
+  }
+  .inforight{
+    width: 70vw;
+    height:20vh;
+    order: 0;
+  }
+
+  .rowone{
+    flex-direction: column;
+    align-items: center;
+  }
+  .rowtwo{
+    flex-direction: column;
+  }
+  .happyright img{
+    width:150px;
+    height: 150px;
+  }
+   .bookcontainer img{
+   width:45vw;
+}
+@keyframes bookslider {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(-112.5%);
+  }
+}
+@keyframes bookslider2 {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(12%);
+  }
+}
+  .monthname{
+    font-size:60%;
+  }
+  .bookdesc{
+    /* font-size:10px; */
+    line-height:1;
+  }
+  .deliverytext h1{
+    font-size: x-large;
+  }
+}
