@@ -84,8 +84,8 @@
     grid-row-gap: 10px;
   }
   .happyright img{
-    width: 20vw;
-    height: 25vh;
+    width: 100px;
+    height:100px;
   }
   .left-text img{
     width:150px; 
@@ -125,6 +125,9 @@
   .laestnews{
     width: 100%;
     height: auto;
+  }
+  #middle6{
+    margin-bottom: 10px;
   }
   .subscribe{
     font-size: 15px;
